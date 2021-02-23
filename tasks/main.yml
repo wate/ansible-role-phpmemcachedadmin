@@ -19,4 +19,4 @@
   template:
     src: Memcache.php.j2
     dest: "{{ phpmemcachedadmin_dest }}/Config/Memcache.php"
-    mode: "0644"
+    mode: "0666"
